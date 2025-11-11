@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "9ad97c0c-886f-4152-a27e-3991ca7c807e",
+		"name": "POSMAN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49094900",
+		"_collection_link": "https://fan063761-6207678.postman.co/workspace/Fan's-Workspace~0c34112c-b3c1-44de-86d7-923497467a04/collection/49094900-9ad97c0c-886f-4152-a27e-3991ca7c807e?action=share&source=collection_link&creator=49094900"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/users/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "first_name",
+							"value": "fanni_tampubolon",
+							"type": "text"
+						},
+						{
+							"key": "first_name",
+							"value": "fanni",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "tampubolon",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "fan@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "Bank City",
+							"value": "SUGARLAND",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/users/1001",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/users/1001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"1001"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

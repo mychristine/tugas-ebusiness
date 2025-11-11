@@ -1,0 +1,52 @@
+{
+  "info": {
+    "name": "Tugas6 - Buku (Create & Get) - Christine",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET All Books",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:3000/books",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books"
+          ]
+        }
+      }
+    },
+    {
+      "name": "POST Create Book",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Belajar Node.js\",\n  \"author\": \"Christine\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/books",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "books"
+          ]
+        }
+      }
+    }
+  ]
+}
